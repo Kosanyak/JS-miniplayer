@@ -108,3 +108,13 @@ progressContainer.addEventListener("click", setProgress);
 
 // Song ends
 audio.addEventListener("ended", nextSong);
+
+//MY js-action
+var range = document.getElementById("range");
+range.onchange = function () {
+  if (this.value == this.min) {
+    audio.volume = 0;
+  } else if (this.value == this.max) {
+    audio.volume = 1;
+  }
+};
