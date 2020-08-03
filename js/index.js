@@ -10,10 +10,19 @@ const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
 // Song titles
-const songs = ["LaLaLaLa", "Дурман в голове туман", "God Dawn", "It`s My Life"];
+const songs = [
+  "LaLaLaLa",
+  "Дурман в голове туман",
+  "God Dawn",
+  "It`s My Life",
+  "Белые Розы",
+  "Червона рута",
+  "Crazy Loop",
+  "Любимка",
+];
 
 // Keep track of song
-let songIndex = 3;
+let songIndex = 7;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
